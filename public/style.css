@@ -142,35 +142,35 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.801);
   backdrop-filter: blur(1px);
-  /* opacity: 1; */
   z-index: 5;
 }
 
 .user-name > div{
-  border-radius: 1rem;
+  border-radius: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(242, 248, 242);
-  backdrop-filter: blur(10px);
+  background-color: #e4e4e4;
   height: 200px;
-  width: 250px;
-  /* border: 1px solid rgba(0, 0, 0, 0.425); */
-  
+  width: 300px;
 }
 
 label{
+  font-size: 1.5rem;
   font-weight: 700;
   margin-right: 2.8rem;
 }
 #name{
   border: none;
-  border: 1px solid rgba(0, 0, 0, 0.493);
-  /* border-radius: 10px; */
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.938);
   padding: 5px;
   padding-left: 10px;
   margin-top: .5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 #name:focus {
@@ -179,19 +179,23 @@ label{
 
 #btn2{
   border: none;
-  padding: .4rem 1.3rem;
+  padding: .5rem 2.3rem;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.699);
   cursor: pointer;
   color: white;
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all .2s linear;
 }
 #btn2:hover{
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.877);
 }
 .hide{
   z-index: -10;
-  /* opacity: 0; */
 }
 
 
